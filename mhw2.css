@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    height: 50px;
+    background-color: black;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#logo {
+    background-image: url("img/StarLabsWhite.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+}
+
+nav div a {
+    font-family: 'Comfortaa', 'Times New Roman', cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin: 0px 30px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#sbarra {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.9;
+    margin-top: 450px;
+}
+
+header a:hover {
+    background-color: rgb(109, 108, 108);
+    border-radius: 10px;
+}
+
+.button {
+    text-transform: uppercase;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+header {
+    height: 500px;
+    background-image: url("img/pexels-chokniti-khongchum-2280547.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    text-align: center;
+    z-index: 1;
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+}
+
+#ric {
+    margin: 5%;
+    border-radius: 14px;
+    outline: none;
+    padding: 5px 15px;
+    border: 2px solid rgba(0, 0, 0, 0.329);
+}
+
+#main,
+#preferiti {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 30px 0px 30px;
+}
+
+section {
+    font-family: 'Comfortaa', 'Times New Roman', cursive;
+    text-transform: uppercase;
+}
+
+#main div,
+#preferiti div {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 25%;
+    margin: 10px;
+}
+
+section h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0b3f52;
+    text-align: center;
+    border-bottom: 2px solid #0b3f52;
+}
+
+.immagini_principali {
+    width: 300px;
+    height: 200px;
+}
+
+#main div h6,
+#preferiti div h6 {
+    border: 2px solid #0b3f52;
+    opacity: 0.7;
+    color: #0b3f52;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#main div h6:hover,
+#preferiti div h6:hover {
+    background-color: rgba(109, 108, 108, 0.144);
+    cursor: pointer;
+}
+
+#main div h4,
+#preferiti h4,
+h4 {
+    padding: 30px 40px 30px 40px;
+    margin: 20px 15%;
+    color: #1882a8;
+    text-align: center;
+}
+
+section .icona {
+    cursor: pointer;
+    position: absolute;
+    top: 43px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+footer {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 14, 0.918);
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+footer>img {
+    margin: 10px;
+    height: 30%;
+}
+
+#menutendina div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+#menutendina {
+    display: none;
+}
